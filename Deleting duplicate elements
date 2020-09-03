@@ -1,0 +1,18 @@
+# Python code to remove duplicate elements
+def Delete(duplicate):
+    final_list = []
+    for number in duplicate:
+        if number not in final_list:
+            final_list.append(number)
+    return final_list
+
+
+# printing res:
+duplicate = [2, 4, 10, 20, 5, 2, 20, 4]
+print(Delete(duplicate))
+
+output:
+"C:\Users\home\PycharmProjects\Hello world\venv\Scripts\python.exe" "C:/Users/home/PycharmProjects/Hello world/deliting duplicats in array.py"
+[2, 4, 10, 20, 5]
+
+Process finished with exit code 0
